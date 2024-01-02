@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Stalactite launcher</title>
+</head>
+<body>
+  <button id="installButton" onclick="installGame()">Installer</button>
+  <button id="launchButton" onclick="launchGame()" disabled>Lancer le jeu</button>
+  <button id="updateButton">Mise à jour</button>
+
+  <script src="renderer.js"></script>
+  <script>
+    function installGame() {
+      ipcRenderer.send('install-game');
+    }
+
+    function launchGame() {
+      ipcRenderer.send('launch-game');
+    }
+  </script>
+</body>
+</html>
