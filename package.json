@@ -33,7 +33,7 @@
     "@electron/asar": "^3.2.8",
     "child_process": "^1.0.2",
     "electron-dl": "^3.5.1",
-    "electron-progressbar": "^2.1.0",
+    "electron-progressbar": "^2.2.0",
     "electron-updater": "^6.1.7",
     "extract-zip": "^2.0.1",
     "path": "^0.12.7"
