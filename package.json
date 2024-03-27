@@ -9,7 +9,7 @@
     "build": "electron-builder"
   },
   "devDependencies": {
-    "@electron/asar": "^3.0.3",
+    "@electron/asar": "^3.2.9",
     "devtron": "^1.4.0",
     "electron": "^28.1.0",
     "electron-builder": "^22.14.13"
@@ -30,7 +30,7 @@
     ]
   },
   "dependencies": {
-    "@electron/asar": "^3.2.8",
+    "@electron/asar": "^3.2.9",
     "child_process": "^1.0.2",
     "electron-dl": "^3.5.1",
     "electron-progressbar": "^2.1.0",
